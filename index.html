@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER SISOR</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>GAME</h1>
+    <div class="game-choice">
+      <div class="choices" id="paper">
+        <img src="paper.jpeg" class="choice" id="paper" />
+      </div>
+      <div class="choices" id="rock">
+        <img src="rock.png" class="choice" id="rock" />
+      </div>
+      <div class="choices" id="sisor">
+        <img src="sisor.jpeg" class="choice" id="sisor" />
+      </div>
+    </div>
+    <div class="score">
+      <div class="point">
+        <b>
+          <p id="you">0</p>
+          <p>YOU</p></b
+        >
+      </div>
+      <div class="point">
+        <b>
+          <p id="comp">0</p>
+          <p>COMPUTER</p></b
+        >
+      </div>
+    </div>
+    <div class="data">
+      <h2 style="padding: 0.4rem">CHOOSE YOUR SIGN</h2>
+    </div>
+    <div class="check">
+      <div>
+        <img src="paper.jpeg" class="com-choice" id="your" />
+        <p class="point">YOU</p>
+      </div>
+      <div style="justify-self: center">
+        <img src="paper.jpeg" class="com-choice" id="computer" />
+        <p class="point">COMPUTER</p>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+  </body>
+</html>
