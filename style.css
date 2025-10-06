@@ -1,0 +1,61 @@
+.choice{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+.choices{
+    height:110px;
+    width: 110px;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+.game-choice{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+}
+body{
+    background: rgb(255, 170, 0);
+    justify-self: center;
+    
+}
+h1{justify-self: center;}
+.choices:hover{
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer; }
+.score{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.point{
+    font-size: 20px;
+    font-family:'Times New Roman','bold';
+    justify-self: center;
+} 
+.data{
+    font-size: 15px;
+    justify-self: center; 
+    flex-wrap: wrap;
+    background-color: green;
+    /* padding: 1rem; */
+    border-radius: 10px;
+}
+.com-choice{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;    
+    justify-self: center;   
+}
+.check{
+    display: flex;
+    gap: 10px;
+    justify-self: center;
+}
