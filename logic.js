@@ -7,7 +7,7 @@ let mess=document.querySelector('h2')
 let randomChoice,choice;
 let score_you=0;
 let score_comp=0;
-let com_sign=['./image/paper.jpeg','./image/rock.png','./image/sisor.jpeg']
+let com_sign=['paper.jpeg','rock.png','sisor.jpeg']
 function loss(){
     score_comp++;
     comp.innerText=score_comp;
@@ -41,4 +41,5 @@ function winner(a){
         default:
             mess.innerText="DRAW,CHOOSE AGAIN"; 
             break;
+
     }}
