@@ -1,3 +1,5 @@
+*{
+    text-align:center;}
 .choice{
     height:100px;
     width: 100px;
@@ -16,6 +18,7 @@
     display: flex;
     gap: 10px;
     justify-self: center;
+    margin:0rem auto;
 }
 body{
     background: rgb(255, 170, 0);
@@ -58,4 +61,7 @@ h1{justify-self: center;}
     display: flex;
     gap: 10px;
     justify-self: center;
+    margin:0rem auto;
 }
+h2{
+    text-align:center;}
